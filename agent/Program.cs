@@ -9,7 +9,7 @@ class Program
     static async Task Main()
     {
         var ws = new ClientWebSocket();
-        await ws.ConnectAsync(new Uri("ws://YOUR_VPS_IP:8080"), CancellationToken.None);
+        await ws.ConnectAsync(new Uri("ws://63.250.41.169:8080"), CancellationToken.None);
 
         while (true)
         {
